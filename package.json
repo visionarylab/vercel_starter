@@ -1,5 +1,22 @@
 {
+    "name": "vercel-start",
+    "version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node api/index.ts"
+	},
+    "dependencies": {
+        "content-disposition": "^0.5.4",
+        "execa": "^9.1.0",
+        "express": "^4.19.2",
+        "ffmpeg-static": "^5.2.0",
+        "next-absolute-url": "^1.2.2",
+        "node-fetch": "^3.3.2",
+        "query-string": "^9.0.0"
+    },
+    "license": "MIT",
     "engines": {
-      "node": "18.x"
+        "node": "20.13.x"
     }
-  }
+}
